@@ -8,5 +8,6 @@ namespace testgit.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
         public int MyProperty { get; set; }
+        public string MyProperty3 { get; set; }
     }
 }
